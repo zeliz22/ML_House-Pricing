@@ -23,11 +23,11 @@ Nan მნიშვნელობების შესაცვლელად
 მესამე მოდული კი ვცადე XGBRegressor, რომელმაც არსებული მოდელებიდან საუკეთესო შედეგი აჩვენა. აქაც ვცადე შემეფასებინა შედარებითობა, რომელი ჯობდა-კორელაციის გამოყენება თუ RFEის და ამისთვის ჩავატარე რამდენიმე ექსპერიმენტი. აქ, წინა მოდელისგან განსხვავებით, ყველაზე დაბალი ერორი მივიღე მაშინ, როცა ვიყენებდი მხოლოდ corealttion_dropperს, 0.143, რაც გამოვიდა კიდეც ყველა მოდელში საუკეთესო შეფასება. 
 
 # MLflow
-Linear regression - (2 run) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/4?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D
+Linear regression - (2 runs) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/4?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D
 
-RandomForestRegression - 3(run) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/5?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE
+RandomForestRegression - (3 runs) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/5?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE
 
-XGB Regression -(3 run) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/6?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE
+XGB Regression -(3 runs) - https://dagshub.com/zeliz22/ML_House-Pricing.mlflow/#/experiments/6?viewStateShareKey=3894e7dac091113a949e1a0b144bdfbf23f857b1cfb2b6251e919052fe25b155&compareRunsMode=TABLE
 
 მეტრიკები: train_log_rmse - სატრენინგო დატას ერორი დასწავლის შემდეგ(გასაშუალოებული, რადგან ვიყენებ KFoldს)(RMSE ამოღებულია ლოგარითმმოდებული ფასებიდან, როგორც ამას     
            პირობა გვთხოვდა)
